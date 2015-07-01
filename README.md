@@ -1,2 +1,2 @@
 # YeXiaoRain.github.io
-YeXiaoRain的Blog
+[YeXiaoRain的Blog](http://yexiaorain.github.io/)

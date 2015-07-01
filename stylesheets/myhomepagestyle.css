@@ -1,0 +1,68 @@
+body {
+    width:100%;
+    height:100%;
+    background-image:url(../images/myhomepagebg.jpeg);
+    font-family: sans-serif;
+    color: #C0C0C0;
+    min-width: 320px;
+}
+body > div {
+    padding: 0px;
+    width:100%;
+    height:100%;
+    top:0px;
+    text-align:center;
+}
+#divSlide > div{
+    width:5px;
+    overflow:hidden;
+}
+#divSlide > div:hover{
+    width:100%;
+}
+table{
+    height:100%;
+    width:100%;
+    border-spacing: 0px;
+}
+td,tr,th,table{
+    padding:0px;
+}
+td{
+    vertical-align:middle;
+}
+.slide-each{
+    position:fixed;
+    right:0px;
+    opacity: 0.7;
+}
+#L1{
+    top:10%;
+    height:80%;
+    color: #444;
+    background:#fff;
+}
+#L4{
+    bottom:0%;
+    height:5%;
+    padding:1px;
+    color: #888;
+    background:#000;
+}
+.slide:hover {
+    opacity: 0.5;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+div {
+    -webkit-transition: all .6s cubic-bezier(0, 0, 0.2, 1);
+    -moz-transition: all .6s cubic-bezier(0, 0, 0.2, 1);
+    -ms-transition: all .6s cubic-bezier(0, 0, 0.2, 1);
+    -o-transition: all .6s cubic-bezier(0, 0, 0.2, 1);
+    transition: all .6s cubic-bezier(0, 0, 0.2, 1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
