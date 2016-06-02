@@ -1,0 +1,43 @@
+body {
+    background: lightblue;
+    background-image:url('../images/homepagebg.jpeg');
+    font-family: sans-serif;
+    min-width: 320px;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 320px;
+}
+
+
+div#main-div {
+    width: 100%;
+    height: 100%;
+}
+
+.quarter-div {
+    display: inline-table;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: left;
+}
+
+.quarter-div a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255,255,255,0.4);
+	background: rgba(0,0,0,0.2);
+    font-size: 5vw;
+	opacity: 0;
+	transition: .3s;
+	z-index: 99999;
+}
+.quarter-div:hover a{
+	opacity:1;
+}
