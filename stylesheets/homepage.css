@@ -1,6 +1,6 @@
 body {
   background: lightblue;
-  background-image:url('../images/homepagebg.jpeg');
+  background-image:url('../images/homepagebg.png');
   background-size: contain;
   font-family: sans-serif;
   min-width: 320px;
@@ -19,15 +19,19 @@ div#main-div {
   height: 100%;
 }
 
-.quarter-div {
+.item-div {
   display: inline-table;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   position: relative;
   float: left;
 }
+.quarter-div {
+  width: 50%;
+  height: 50%;
+}
 
-.quarter-div a {
+.item-div a {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -39,6 +43,6 @@ div#main-div {
   transition: .3s;
   z-index: 99999;
 }
-.quarter-div:hover a{
+.item-div:hover a{
   opacity:1;
 }
